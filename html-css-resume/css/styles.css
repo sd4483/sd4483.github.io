@@ -48,6 +48,10 @@ main {
     font-weight: bold;
 }
 
+.projects dd::before {
+    content: "• ";
+}
+
 .education, .work-experience, .projects {
     padding-bottom: 10px;
     border-bottom: 1px solid;
