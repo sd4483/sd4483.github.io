@@ -43,3 +43,13 @@ main {
     object-fit: cover;
     border-radius: 12px;
 }
+
+.education dt, .work-experience dt, .projects dt {
+    font-weight: bold;
+}
+
+.education, .work-experience, .projects {
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    border-color: slategray;
+}
