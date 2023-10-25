@@ -6,43 +6,59 @@ body {
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    width: min(100%, 800px);
+    margin: 0 auto;
 }
 
 main {
     border: 1px solid slategray;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 20px;
-}
-
-.contact {
-    display: flex;
-    gap: 5px;
-    flex-wrap: wrap;   
-    justify-content: space-between;
 }
 
 .about {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 20px;
-    border-bottom: 1px solid;
     border-color: slategray;
 }
 
 .name-contact {
     flex-grow: 1;
-    flex-basis: 500px;
+    flex-basis: 300px;
+}
+
+.name h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+.contact {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;   
+    justify-content: space-between;
+}
+
+.summary {
+    padding-top: 20px;
+    border-bottom: 1px solid slategray;
+}
+
+.summary p {
+    margin: 0;
+    padding-bottom: 20px;
 }
 
 .photo img {
     flex-grow: 1;
-    flex-basis: 30%;
-    width: 300px;
-    height: 300px;
+    flex-basis: 300px;
+    width: 320px;
+    height: 200px;
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: 10px;
 }
 
 .education dt, .work-experience dt, .projects dt {
@@ -53,7 +69,7 @@ main {
     content: "• ";
 }
 
-.education, .work-experience, .projects {
+.education, .work-experience {
     padding-bottom: 10px;
     border-bottom: 1px solid;
     border-color: slategray;
