@@ -8,3 +8,4 @@
 - [Nutrition Label](https://sd4483.github.io/nutrition-label)
 - [Odin Recipes](https://sd4483.github.io/odin-recipes/)
 - [Resumé using HTML, CSS & Flexbox](https://sd4483.github.io/html-css-resume/)
+- [Bio Links](https://sd4483.github.io/bio-links)
