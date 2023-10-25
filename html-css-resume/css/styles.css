@@ -65,6 +65,21 @@ main {
     font-weight: bold;
 }
 
+.education dd, .work-experience dd {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education dt:not(:first-child), .work-experience dt:not(:first-child), .projects dt:not(:first-child) {
+    padding-top: 10px;
+}
+
+dd .dates {
+    font-size: 14px;
+    font-style: italic;
+    color: lightslategray;
+}
+
 .projects dd::before {
     content: "• ";
 }
