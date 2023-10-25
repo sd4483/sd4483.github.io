@@ -20,8 +20,31 @@ body {
     padding: 10px;
 }
 
-.third {
-    padding: 10px;
+.first {
+    background-color: rgb(21, 21, 21);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.first-top {
+    border-bottom: 2px dotted white;
+}
+
+.first-middle, .first-bottom {
+    display: flex;
+    gap: 5px;
+}
+
+.first-bottom {
+    margin-bottom: 30px;
+}
+
+.first-middle p, .first-bottom p {
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    margin: 0;
 }
 
 .second {
@@ -41,7 +64,7 @@ body {
 }
 
 .vertical-title .point {
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -49,6 +72,7 @@ body {
 .vertical-title .grow {
     font-family: cursive;
     text-align: center;
+    font-size: 18px;
 }
 
 .second-bottom-image img {
@@ -60,9 +84,46 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .third-large-image img {
-    width: 300px;
-    margin: auto auto;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.title .point-big {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title .grow-big {
+    font-family: cursive;
+    text-align: center;
+    font-size: 25px;
+}
+
+.sub-title {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+}
+
+.sub-title .that {
+    text-transform: none;
+    font-style: italic;
 }
