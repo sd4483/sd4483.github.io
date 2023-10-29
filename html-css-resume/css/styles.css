@@ -4,15 +4,15 @@
 
 body {
     padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui;
     font-size: 18px;
-    width: min(100%, 800px);
+    width: min(100%, 650px);
     margin: 0 auto;
 }
 
 main {
     border: 1px solid slategray;
-    border-radius: 20px;
+    border-radius: 8px;
     padding: 20px;
 }
 
@@ -63,11 +63,15 @@ main {
 
 .education dt, .work-experience dt, .projects dt {
     font-weight: bold;
+    margin-bottom: 4px;
 }
 
 .education dd, .work-experience dd {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+    margin-left: 0;
+    margin-bottom: 10px;
 }
 
 .education dt:not(:first-child), .work-experience dt:not(:first-child), .projects dt:not(:first-child) {
