@@ -2,38 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-    padding: 0 10px;
-    font-size: 18px;
-    font-family: system-ui;
-    width: min(100%, 750px);
-    margin: 10px auto;
-}
-
-article, main {
-    padding: 0 10px;
-}
-
-p {
-    line-height: 1.4;
-}
-
-article h1 {
-    margin-bottom: 10px;
-}
-
-h1 {
-    font-size: 1.5em;
-}
-
-time, .blog-date {
-    color: #646261;
-    font-style: italic;
-    font-size: 16px;
-    display: block;
-    text-align: right;
-}
-
 header {
     background-color: #2B2B2B;
     color: white;
@@ -70,39 +38,14 @@ header ul li a:hover {
     background-color: #646261;
 }
 
-blockquote {
-    margin: 18px 0;
-    border-left: 4px solid black;
-    padding: 10px 5px 10px 10px;
-    background-color: #ededed;
+body {
+    padding: 0 10px;
+    font-size: 18px;
+    font-family: system-ui;
+    width: min(100%, 750px);
+    margin: 10px auto;
 }
 
-blockquote h3 {
-    margin-top: 0;
-}
-
-.source {
-    margin-bottom: 0;
-}
-
-.blog-list {
-    margin: 0;
-    padding: 0;
-}
-
-.blog-list p {
-    margin: 0;
-}
-
-.blog-list li {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-}
-
-.blog-list li a{
-    text-decoration: none;
-    color: #2B2B2B;
+article, main {
+    padding: 0 10px;
 }

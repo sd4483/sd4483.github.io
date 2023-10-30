@@ -1,0 +1,89 @@
+p {
+    line-height: 1.4;
+}
+
+article h1 {
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+time, .blog-date {
+    color: #646261;
+    font-style: italic;
+    font-size: 16px;
+    display: block;
+    text-align: right;
+}
+
+blockquote {
+    margin: 18px 0;
+    border-left: 4px solid black;
+    padding: 10px 5px 10px 10px;
+    background-color: #ededed;
+}
+
+blockquote h3 {
+    margin-top: 0;
+}
+
+.source {
+    margin-bottom: 0;
+}
+
+.blog-list {
+    margin: 0;
+    padding: 0;
+}
+
+.blog-list p {
+    margin: 0;
+}
+
+.blog-list li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.blog-list li a{
+    text-decoration: none;
+    color: #2B2B2B;
+}
+
+.random-thought {
+    border-top: 1px solid rgb(245, 245, 245);
+    padding: 20px 0;
+}
+
+.random-thought h2 {
+    color: #2B2B2B;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 0;
+}
+
+.random-thought p {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #423F3E;
+} 
+
+.random-thought ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
+.note {
+    font-size: 16px;
+    color: #423F3E;
+}
