@@ -27,6 +27,14 @@ h4 {
     font-size: 1em;
 }
 
+.home-page-h3 {
+    font-weight: 600;
+}
+
+.home-page-h4 {
+    font-weight: 500;
+}
+
 header {
     background-color: #2B2B2B;
     color: white;
@@ -87,7 +95,7 @@ article, main {
     flex-grow: 1;
 }
 
-.blog-list li a, .html-css-projects li a{
+.blog-list li a, .html-css-projects li a, .learning-title a{
     text-decoration: none;
     color: #2B2B2B;
 }
