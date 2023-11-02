@@ -71,6 +71,17 @@ header ul li a:hover {
     background-color: #646261;
 }
 
+.theme-switch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.theme-switch img {
+    width: 25px;
+    height: 25px;
+}
+
 article, main {
     padding: 0 10px;
 }
