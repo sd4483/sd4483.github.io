@@ -2,6 +2,31 @@
     box-sizing: border-box;
 }
 
+body {
+    padding: 0 10px;
+    font-size: 18px;
+    font-family: 'Lexend';
+    font-weight: 300;
+    width: min(100%, 750px);
+    margin: 10px auto;
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
 header {
     background-color: #2B2B2B;
     color: white;
@@ -36,14 +61,6 @@ header ul li a {
 
 header ul li a:hover {
     background-color: #646261;
-}
-
-body {
-    padding: 0 10px;
-    font-size: 18px;
-    font-family: system-ui;
-    width: min(100%, 750px);
-    margin: 10px auto;
 }
 
 article, main {
