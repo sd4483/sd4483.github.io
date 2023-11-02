@@ -16,9 +16,9 @@ time, .blog-date {
 
 blockquote {
     margin: 18px 0;
-    border-left: 4px solid black;
+    border-left: 4px solid #001524;
     padding: 10px 5px 10px 10px;
-    background-color: #eeeeee;
+    background-color: #f2f6fa;
 }
 
 blockquote h3 {
