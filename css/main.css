@@ -49,3 +49,28 @@ body {
 article, main {
     padding: 0 10px;
 }
+
+.blog-list, .html-css-projects {
+    margin: 0;
+    padding: 0;
+}
+
+.blog-list p, .html-css-projects p {
+    margin: 0;
+}
+
+.blog-list li, .html-css-projects li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.blog-title, .project-title {
+    flex-grow: 1;
+}
+
+.blog-list li a, .html-css-projects li a{
+    text-decoration: none;
+    color: #2B2B2B;
+}
